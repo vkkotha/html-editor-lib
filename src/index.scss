@@ -1,0 +1,86 @@
+.he_editor {
+}
+
+.he_editor .canvas {
+  width: calc(100% - 360px);
+  min-width: 800px;
+  float: left;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  background-color: lightgray;
+  
+}
+
+.he_editor .canvas iframe {
+  background-color: white;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  min-height: 1000px;
+}
+.he_editor .panels {
+  display: inline-block;
+  width: 280px;
+  min-width: 280px;
+  background-color: gray;
+  margin-left: 0px;
+  position: absolute;
+  min-height: 1000px;
+  margin-left: 1px;
+}
+
+.he_editor .panels ul {
+  list-style: none;
+  padding-left: 10px;
+  border: 1px solid gray;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  min-height: 1000px;
+}
+
+.he_editor .panels ul li {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  margin-left: 18px;
+}
+
+.he_editor .panels ul li span.panel_comp {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  text-decoration: none;
+}
+
+.he_editor .panels:hover {
+  background-color: red;
+}
+.he_editor .guides {
+  margin-top: 20px;
+  height: 1000px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.he_editor .guides .guide-line {
+  border-left: 1px dashed lightsteelblue;
+  position: absolute;
+  top: 20px;
+  height: 100%;
+}
+
+.he_editor .guides .guide-line-left {
+  left: 300px;
+}
+
+.he_editor .guides .guide-line-right {
+  right: 600px;
+}
